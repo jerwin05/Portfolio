@@ -1,0 +1,261 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: #F0F0F0;
+  text-align: center;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #F0F0F0;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+i {
+  display: inline;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+/*# sourceMappingURL=base.css.map */
+
+:root{
+  --nav-color:#BE3144;
+  --footer-color:#303841;
+  --projects-color:#45567D;
+  --welcome-color:#222225;
+  --text-color:#F0F0F0;
+}
+
+
+/* modules start*/
+.flex-center-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-between-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* modules end*/
+
+.section{
+  font-size: 1.1rem;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--nav-color);
+  width:100%;
+  height: 4.4rem;
+  box-shadow: 0 0 4px 3px rgb(0, 0, 0);
+}
+.navbar__links{
+  font-size: 1.28rem;
+}
+.navbar__links_li{
+  display: inline;
+  margin:0 1rem;
+}
+
+
+.welcome-section{
+  height: 100vh;
+  background-color: var(--welcome-color);
+}
+.welcome__heading{  
+  font-size: 3rem;
+}
+.welcome__description{  
+  color: var(--nav-color);
+  font-size: 1.8rem;
+}
+
+
+.project-section{
+  background-color: var(--projects-color);
+  padding: 0 1rem 0;
+}
+.projects__heading{
+  border-bottom: .15rem solid (--text-color);
+  margin: 3rem 1rem 4rem 1rem;
+  font-size: 2rem;
+}
+.projects__container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(1rem,calc(100%/3)));
+  grid-gap: 2rem;
+}
+.project__figure{
+  display: block;
+  margin-bottom: 2rem;
+}
+.project__figure figure{
+  border-radius: 10px;
+}
+.project__figure_img{
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.project__figure_title{
+  background-color: var(--footer-color);
+  margin: 0;
+  padding: .9rem 0;
+}
+.project__figure_title--decoration{
+  color: var(--nav-color);
+}
+.show-all{
+  display: block;
+  background-color: var(--footer-color);
+  padding: .5rem 1rem;
+  border-radius: 3px;
+  margin: 0 0 2rem;
+}
+
+
+.contact__heading{
+  font-size: 2.1rem;
+  margin: 2.5rem 1rem .05rem 1rem;
+}
+.contact__question{
+  font-size:1rem;
+  font-weight: 300;
+  margin: 0 1rem 1rem 1rem
+}
+.contact__links{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin: 3rem 1rem;
+  flex-wrap: wrap;
+}
+.contact__links_li{
+  list-style-type: none;
+  margin: 0 .5rem;
+}
+
+
+
+.footer{
+  border-top: .3rem solid var(--nav-color);
+  font-size:1rem;
+  font-weight: 300;
+}
+.footer--color{
+  background-color: var(--footer-color);
+}
+.footer__container{
+  width: 90%;
+}
+.footer__note{
+  margin:2.5rem 1rem 1.5rem 1rem ;
+}
+.footer__link{
+  margin:0 1rem 1.5rem 1rem ;
+  list-style-type: none;
+  display: block;
+}

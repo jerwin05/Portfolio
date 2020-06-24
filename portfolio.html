@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"rel="stylesheet"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar flex-center-col">
+        <ul class="navbar__links">
+            <li class="navbar__links_li">
+                <a href="#welcome-section">
+                    About
+                </a>
+            </li>
+            <li class="navbar__links_li">
+                <a href="#projects">
+                    Work
+                </a>
+            </li>
+            <li class="navbar__links_li">
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-section" class="section welcome-section flex-center-col">
+            <h1 class="welcome__heading">Hey I am Mimic</h1>
+            <p class="welcome__description"><em>a web developer</em></p>
+        </section>
+        <section id="projects" class="section project-section flex-center-col">
+            <h2 class="projects__heading">These are some of my projects</h2>
+            <div class="projects__container">
+                <a class="project__figure" href="#">
+                    <figure>
+                        <img class="project__figure_img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="">
+                        <figcaption class="project__figure_title">
+                            <span class="project__figure_title--decoration">&lt;</span>
+                                Tribute Page
+                            <span class="project__figure_title--decoration">&sol;&gt;</span>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project__figure" href="#">
+                    <figure>
+                        <img class="project__figure_img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                        <figcaption class="project__figure_title">
+                            <span class="project__figure_title--decoration">&lt;</span>
+                                Random Quote Machine
+                            <span class="project__figure_title--decoration">&sol;&gt;</span>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project__figure" href="#">
+                    <figure>
+                        <img class="project__figure_img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="">
+                        <figcaption class="project__figure_title">
+                            <span class="project__figure_title--decoration">&lt;</span>
+                                Javascript Calculator
+                            <span class="project__figure_title--decoration">&sol;&gt;</span>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project__figure" href="#">
+                    <figure>
+                        <img class="project__figure_img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="">
+                        <figcaption class="project__figure_title">
+                            <span class="project__figure_title--decoration">&lt;</span>
+                                Map Data Across the Globe
+                            <span class="project__figure_title--decoration">&sol;&gt;</span>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project__figure" href="#">
+                    <figure>
+                        <img class="project__figure_img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" alt="">
+                        <figcaption class="project__figure_title">
+                            <span class="project__figure_title--decoration">&lt;</span>
+                                Wikipedia Viewer
+                            <span class="project__figure_title--decoration">&sol;&gt;</span>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project__figure" href="#">
+                    <figure>
+                        <img class="project__figure_img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" alt="">
+                        <figcaption class="project__figure_title">
+                            <span class="project__figure_title--decoration">&lt;</span>
+                                Tic Tac Toe Game
+                            <span class="project__figure_title--decoration">&sol;&gt;</span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <a class="show-all" href="#">
+                Show all <i class="fas fa-chevron-right"></i>
+            </a>
+        </section>
+        <section id="contact" class="section contact-section footer--color flex-center-col">
+            <div class="footer__container flex-center-col">
+                <h2 class="contact__heading">Let's work together...</h2>
+                <p class="contact__question"><em>How do you take your coffee?</em></p>
+                <ul class="contact__links">
+                    <li class="contact__links_li"><a href="#"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li class="contact__links_li"><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li class="contact__links_li"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li class="contact__links_li"><a href="#"><i class="fas fa-at"></i> Send a mail</a></li>
+                    <li class="contact__links_li"><a href="#"><i class="fas fa-mobile-alt"></i> Call me</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer footer--color flex-center-col">
+            <div class="footer__container">
+                <P class="footer__note">**This is just a fake portfolio. All the projects and contact details given are not real.</P>
+                <a class="footer__link" href="#">&copy; Created for freeCodeCamp <i class="fab fa-free-code-camp"></i></a>    
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
