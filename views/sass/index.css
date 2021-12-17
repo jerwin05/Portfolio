@@ -35,8 +35,9 @@
 }
 
 .key-text {
-  font-size: 10vmin;
+  font-size: 1.5em;
   padding-bottom: 0.1em;
+  margin: 0 30px;
 }
 
 .text-color {
@@ -46,7 +47,7 @@
 }
 
 .key-font-size {
-  font-size: 4.5vmin;
+  font-size: .9em;
 }
 
 .top-animation {
@@ -393,6 +394,24 @@
   }
   100% {
     color: white;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .key-text {
+    font-size: 2em;
+  }
+  .key-font-size {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .key-text {
+    font-size: 2.5em;
+  }
+  .key-font-size {
+    font-size: 1.4em;
   }
 }
 /*# sourceMappingURL=index.css.map */
