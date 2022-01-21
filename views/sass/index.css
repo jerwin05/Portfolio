@@ -14,13 +14,18 @@
           justify-content: center;
   padding: 20px;
   height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 h2 {
   margin-top: 40px;
-}
-
-h2 {
+  font-size: 1.2rem;
   text-decoration: underline;
   margin-bottom: 15px;
 }
@@ -31,6 +36,9 @@ h2 {
   -ms-grid-columns: 60px auto;
       grid-template-columns: 60px auto;
   gap: 15px;
+  background-color: #F09974;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .card__icon {
@@ -60,7 +68,10 @@ ul {
   display: -ms-flexbox;
   display: flex;
   overflow-y: scroll;
-  width: 70vw;
+  width: 80vw;
+  background-color: #2D3341;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 ul li img {
