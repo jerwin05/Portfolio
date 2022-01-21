@@ -1,4 +1,50 @@
-.card-icon {
-    width: 60px;
-    height: 60px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin-top: 40px;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 60px auto;
+  gap: 15px;
+}
+
+.card__icon {
+  width: 60px;
+  height: 60px;
+}
+
+.card__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-tile__subtitle {
+  margin-top: 3px;
+}
+
+ul {
+    display: flex;
+    overflow-y: scroll;
+    width: 85vw;
+  li {
+    img {
+        margin: 0 20px;
+      width: 100px;
+      height: auto;
+    }
+  }
 }
