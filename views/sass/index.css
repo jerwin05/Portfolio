@@ -15,18 +15,18 @@
   padding: 20px;
   height: 100vh;
   background-image: url("../assets/background.jpg");
-  background-color: #E99A7E;
+  background-color: #e99a7e;
   background-position: center;
   background-size: contain;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
   margin-top: 40px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-bottom: 15px;
 }
@@ -37,9 +37,9 @@ h2 {
   -ms-grid-columns: 60px auto;
       grid-template-columns: 60px auto;
   gap: 15px;
-  background-color: #F09974;
-  padding: 15px;
-  border-radius: 15px;
+  background-color: #f09974;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 .card__icon {
@@ -60,6 +60,11 @@ h2 {
           justify-content: center;
 }
 
+.card__title h3,
+.card__title p {
+  font-size: 0.8rem;
+}
+
 .card-tile__subtitle {
   margin-top: 5px;
 }
@@ -70,15 +75,15 @@ ul {
   display: flex;
   overflow-y: scroll;
   width: 79vw;
-  background-color: #674B46;
-  padding: 15px;
-  border-radius: 15px;
+  background-color: #674b46;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 ul li img {
   margin: 0 30px;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 .contact {
