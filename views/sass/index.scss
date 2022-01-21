@@ -50,7 +50,7 @@ ul {
   display: flex;
   overflow-y: scroll;
   width: 80vw;
-  background-color: #2D3341;
+  background-color: #674B46;
   padding: 15px;
   border-radius: 15px ;
   li {
@@ -60,4 +60,9 @@ ul {
       height: 100px;
     }
   }
+}
+
+.contact{
+    font-size: 1.1rem;
+    margin-top: 30px;
 }
