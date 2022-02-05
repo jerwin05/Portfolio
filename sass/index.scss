@@ -27,6 +27,7 @@ h2 {
   grid-template-columns: 60px auto;
   gap: 15px;
   background-color: #f09974;
+  border: 4px solid #674b46;
   padding: 13px;
   border-radius: 10px;
 }
@@ -57,7 +58,6 @@ ul {
   overflow-y: scroll;
   width: 67vw;
   background-color:#f09974;
-  border: 4px solid #674b46;
   padding: 13px;
   border-radius: 10px;
   li {
